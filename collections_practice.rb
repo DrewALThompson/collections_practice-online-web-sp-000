@@ -28,6 +28,7 @@ array.select {|word| word.start_with?("a") ? true : false}
 end
 
 def sum_array(array)
+  
 end
 
 def add_s
