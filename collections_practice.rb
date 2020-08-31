@@ -18,9 +18,9 @@ end
 def reverse_array(array)
   array.sort do |a, b|
     if array[a] < array[b]
-      
-    elsif 
-    
+      1
+    else array[a] > array[b]
+     -1
    end
   end
 end
