@@ -13,7 +13,7 @@ end
 def swap_elements(array)
 array.each do |word| 
   word[1] <=> word[2]
-end
+ end
 end
 
 def reverse_array(array)
