@@ -17,12 +17,10 @@ end
 
 def reverse_array(array)
   array.sort do |a, b|
-    if a == b
-     0
-    elsif a > b
-     -1
-    elsif a < b
-     1
+    if array[a] < array[b]
+      
+    elsif 
+    
    end
   end
 end
