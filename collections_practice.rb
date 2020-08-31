@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
 array.each do |word| 
-  word[2]
+  word.sort 
 end
 
 def reverse_array(array)
