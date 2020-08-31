@@ -17,7 +17,14 @@ end
 
 def reverse_array(array)
   array.sort do |a, b|
-    if
+    if a == b
+     0
+    elsif a < b
+     1
+    elsif a > b
+     -1
+   end
+  end
 end
 
 def kesha_maker(array)
