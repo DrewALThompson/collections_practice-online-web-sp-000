@@ -17,6 +17,7 @@ array.sort do |a, b|
   else a < b 
     1
   end
+  end
 end
 
 def reverse_array(array)
