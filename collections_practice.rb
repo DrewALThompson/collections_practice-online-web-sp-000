@@ -11,7 +11,8 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-array.each do |word| 
+array.each do |string| 
+  string.sort {|word| word[1] <=> word[2]}
  end
 end
 
