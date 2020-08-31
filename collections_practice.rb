@@ -32,6 +32,6 @@ array.inject {|sum, n| sum += n}
 end
 
 def add_s(array)
-  array.each_with_index.collect {|element, index| element + "s" if index != 1}
+  array.each_with_index.collect {|element, index| index == 1? element : element << "s"}
 end
 
