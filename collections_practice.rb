@@ -15,7 +15,7 @@ array.sort do |a, b|
   if a[0]
     0 
   else a < b 
-    1
+    -1
   end
   end
 end
