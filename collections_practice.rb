@@ -12,7 +12,7 @@ end
 
 def swap_elements(array)
 array.sort do |a, b|
-  if a == array[0]
+  if a == 
     0 
   else a < b 
     -1
