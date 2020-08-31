@@ -14,8 +14,9 @@ def swap_elements(array)
 array.sort do |a, b|
   if a[0]
     0 
-  else 
-  
+  else a < b 
+    1
+  end
 end
 
 def reverse_array(array)
