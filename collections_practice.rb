@@ -24,7 +24,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-array.select {||}
+array.select {|word| word.start_with?("a") ? true : false}
 end
 
 def sum_array(array)
